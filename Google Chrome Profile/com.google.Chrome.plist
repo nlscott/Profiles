@@ -1,40 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-  <key>HomepageLocation</key>
-  <string>https://www.google.com/</string>
-  <key>HomepageIsNewTabPage</key>
-  <false/>
-  <key>AutofillCreditCardEnabled</key>
-  <false/>
-  <key>AutoFillEnabled</key>
-  <false/>
-  <key>PasswordManagerEnabled</key>
-  <false/>
-  <key>DefaultPluginsSetting</key>
-  <integer>3</integer>
-  <key>DefaultPopupsSetting</key>
-  <integer>1</integer>
-  <key>SafeBrowsingEnabled</key>
-  <true/>
-  <key>URLBlacklist</key>
-  <array>
-    <string>*</string>
-  </array>
-  <key>URLWhitelist</key>
-  <array>
-    <string>apple.com</string>
-    <string>https://www.google.com/</string>
-    <string>chrome://*</string>
-  </array>
-  <key>RestoreOnStartup</key>
-  <integer>4</integer>
-  <key>RestoreOnStartupURLs</key>
-  <array>
-  <string>https://www.google.com/</string>
-</array>
-<key>PrintPreviewUseSystemDefaultPrinter</key>
-<true/>
-</dict>
+	<dict>
+		<key>AutoFillEnabled</key>
+		<false/>
+		<key>AutofillCreditCardEnabled</key>
+		<false/>
+		<key>DefaultPluginsSetting</key>
+		<integer>3</integer>
+		<key>DefaultPopupsSetting</key>
+		<integer>1</integer>
+		<key>HomepageIsNewTabPage</key>
+		<false/>
+		<key>HomepageLocation</key>
+		<string>https://www.google.com</string>
+		<key>PasswordManagerEnabled</key>
+		<false/>
+		<key>PrintPreviewUseSystemDefaultPrinter</key>
+		<true/>
+		<key>RestoreOnStartup</key>
+		<integer>4</integer>
+		<key>RestoreOnStartupURLs</key>
+		<array>
+			<string>https://www.google.com</string>
+		</array>
+		<key>SafeBrowsingEnabled</key>
+		<true/>
+		<!-- Block All URLS from loading -->
+		<key>URLBlacklist</key>
+		<array>
+			<string>*</string>
+		</array>
+		<!-- Only allow these URLS as exceptions -->
+		<key>URLWhitelist</key>
+		<array>
+			<string>https://www.apple.com/</string>
+			<string>https://www.google.com/</string>
+			<string>chrome://*</string>
+		</array>
+		<key>ExtensionInstallForcelist</key>
+		<array>
+			<!-- Virtru Email Encryption -->
+			<string>nemmanchfojaehgkbgcfmdiidbopakpp;https://clients2.google.com/service/update2/crx</string>
+			<!-- Cisco WebEx Extension -->
+			<string>jlhmfgmfgeifomenelglieieghnjghma;https://clients2.google.com/service/update2/crx</string>
+			<!-- Cisco WebEx Scheduler -->
+			<string>ankblejcdieljecjfagjeoelaedaoaka;https://clients2.google.com/service/update2/crx</string>
+			<!-- Office Editing for Docs, Sheets & Slides -->
+			<string>gbkeegbaiigmenfmjfclcdgdpimamgkj;https://clients2.google.com/service/update2/crx</string>
+		</array>
+	</dict>
 </plist>

@@ -22,10 +22,17 @@
 								<integer>3</integer>
 								<key>DefaultPopupsSetting</key>
 								<integer>1</integer>
+								<key>ExtensionInstallForcelist</key>
+								<array>
+									<string>nemmanchfojaehgkbgcfmdiidbopakpp;https://clients2.google.com/service/update2/crx</string>
+									<string>jlhmfgmfgeifomenelglieieghnjghma;https://clients2.google.com/service/update2/crx</string>
+									<string>ankblejcdieljecjfagjeoelaedaoaka;https://clients2.google.com/service/update2/crx</string>
+									<string>gbkeegbaiigmenfmjfclcdgdpimamgkj;https://clients2.google.com/service/update2/crx</string>
+								</array>
 								<key>HomepageIsNewTabPage</key>
 								<false/>
 								<key>HomepageLocation</key>
-								<string>https://www.google.com/</string>
+								<string>https://www.google.com</string>
 								<key>PasswordManagerEnabled</key>
 								<false/>
 								<key>PrintPreviewUseSystemDefaultPrinter</key>
@@ -34,7 +41,7 @@
 								<integer>4</integer>
 								<key>RestoreOnStartupURLs</key>
 								<array>
-									<string>https://www.google.com/</string>
+									<string>https://www.google.com</string>
 								</array>
 								<key>SafeBrowsingEnabled</key>
 								<true/>
@@ -44,7 +51,7 @@
 								</array>
 								<key>URLWhitelist</key>
 								<array>
-									<string>apple.com</string>
+									<string>https://www.apple.com/</string>
 									<string>https://www.google.com/</string>
 									<string>chrome://*</string>
 								</array>
@@ -56,21 +63,21 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>MCXToProfile.7fb379df-5aa8-4c30-8752-728148e9eb4a.alacarte.customsettings.ab5087f8-d9df-49c4-9016-9640befb537b</string>
+			<string>MCXToProfile.dc4cb18c-901d-48d5-b5ec-198ee45275b1.alacarte.customsettings.3ad9fa77-b870-4b42-965a-50d1d433942c</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>ab5087f8-d9df-49c4-9016-9640befb537b</string>
+			<string>3ad9fa77-b870-4b42-965a-50d1d433942c</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Custom settings for Chrome</string>
+	<string>Setting policies for Google Chrome</string>
 	<key>PayloadDisplayName</key>
 	<string>Google Chrome Policies</string>
 	<key>PayloadIdentifier</key>
-	<string>com.google.test</string>
+	<string>com.test.profile.chrome</string>
 	<key>PayloadOrganization</key>
 	<string></string>
 	<key>PayloadRemovalDisallowed</key>
@@ -80,7 +87,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>7fb379df-5aa8-4c30-8752-728148e9eb4a</string>
+	<string>dc4cb18c-901d-48d5-b5ec-198ee45275b1</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
