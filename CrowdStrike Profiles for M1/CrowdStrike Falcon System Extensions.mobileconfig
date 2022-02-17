@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadUUID</key>
+	<string>863BE372-D1FA-4082-85B2-3B8FE63797C5</string>
+	<key>PayloadIdentifier</key>
+	<string>863BE372-D1FA-4082-85B2-3B8FE63797C5</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadOrganization</key>
+	<string>CrowdStrike Inc.</string>
+	<key>PayloadDisplayName</key>
+	<string>CrowdStrike Falcon System Extensions</string>
+	<key>PayloadDescription</key>
+	<string>System Extensions</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadUUID</key>
+			<string>20258B06-5866-4424-8893-A3AF1AFAAEDC</string>
+			<key>PayloadIdentifier</key>
+			<string>20258B06-5866-4424-8893-A3AF1AFAAEDC</string>
+			<key>PayloadType</key>
+			<string>com.apple.system-extension-policy</string>
+			<key>PayloadOrganization</key>
+			<string>CrowdStrike Inc.</string>
+			<key>PayloadDisplayName</key>
+			<string>System Extensions</string>
+			<key>PayloadDescription</key>
+			<string>Configures System Extensions Policy settings</string>
+			<key>AllowUserOverrides</key>
+			<true/>
+			<key>AllowedSystemExtensions</key>
+			<dict>
+				<key>X9E956P446</key>
+				<array>
+					<string>com.crowdstrike.falcon.Agent</string>
+				</array>
+			</dict>
+			<key>AllowedSystemExtensionTypes</key>
+			<dict>
+				<key>X9E956P446</key>
+				<array>
+					<string>EndpointSecurityExtension</string>
+					<string>NetworkExtension</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadUUID</key>
+			<string>E45B5986-74A6-4B6A-A4CA-E179516A7F52</string>
+			<key>PayloadIdentifier</key>
+			<string>E45B5986-74A6-4B6A-A4CA-E179516A7F52</string>
+			<key>PayloadType</key>
+			<string>com.apple.system-extensions.admin</string>
+			<key>PayloadOrganization</key>
+			<string>CrowdStrike Inc.</string>
+			<key>PayloadDisplayName</key>
+			<string>App System Extension Control</string>
+			<key>PayloadDescription</key>
+			<string>Controls the system extension loading/unloading</string>
+			<key>AllowedTeamIdentifiers</key>
+			<array>
+				<string>X9E956P446</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
